@@ -1,2 +1,2 @@
-!function(){Office.onReady(function(){});var t="https://projects.zoho.in/";Office.actions.associate("action",function(o){try{Office.context.ui.openBrowserWindow(t),o.completed()}catch(e){var c="https://localhost:3000/assets/redirect.html?to="+encodeURIComponent(t);Office.context.ui.displayDialogAsync(c,{height:80,width:80},function(){o.completed()})}})}();
+Office.onReady(function(){}),Office.actions.associate("openZoho",function(o){var n="https://projects.zoho.in/";try{Office.context.ui&&Office.context.ui.openBrowserWindow?Office.context.ui.openBrowserWindow(n):window.open(n,"_blank")}catch(o){window.open(n,"_blank")}o.completed()});
 //# sourceMappingURL=commands.js.map
