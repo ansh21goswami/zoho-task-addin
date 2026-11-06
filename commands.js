@@ -1,0 +1,2 @@
+!function(){Office.onReady(function(){});var t="https://projects.zoho.in/";Office.actions.associate("action",function(o){try{Office.context.ui.openBrowserWindow(t),o.completed()}catch(e){var c="https://localhost:3000/assets/redirect.html?to="+encodeURIComponent(t);Office.context.ui.displayDialogAsync(c,{height:80,width:80},function(){o.completed()})}})}();
+//# sourceMappingURL=commands.js.map
